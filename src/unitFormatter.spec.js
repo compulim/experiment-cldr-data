@@ -13,4 +13,4 @@ beforeAll(() => {
 });
 
 test('should format megabyte', () =>
-  expect(new Globalize('en').unitFormatter('megabyte')(10485760)).toBe('10,485,760 megabytes'));
+  expect(new Globalize('en').unitFormatter('megabyte')(12345)).toBe('12,345 megabytes'));
