@@ -1,0 +1,23 @@
+{
+  "name": "experiment-cldr-data",
+  "version": "0.0.0-0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "William Wong (https://github.com/compulim)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-syntax-import-attributes": "^7.22.5",
+    "@babel/preset-env": "^7.22.20",
+    "globalize": "^1.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "cldr-core": "^43.1.0",
+    "cldr-numbers-full": "^43.1.0",
+    "cldr-units-full": "^43.1.0"
+  }
+}
